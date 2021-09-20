@@ -917,6 +917,9 @@ margin-right: 28px;
     }
 }
 @media (max-width:450px){
+    .guided-slider__item img {
+        height: 250px;
+    }
     .health__title{
         font-size: 36px;
         line-height: 50px;
