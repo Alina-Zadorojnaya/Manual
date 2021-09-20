@@ -9,6 +9,7 @@ body{
     font-size: 16px;
     color: #0B3B3C;
     overflow-x: hidden;
+    min-width: 320px;
 }
 ul,
 li,
@@ -742,6 +743,12 @@ margin-right: 28px;
     background-color: rgba(126, 7, 7, 1);
     color: #fff;
 
+}
+.menu__list{
+    transform: translateX(-100%);
+}
+.menu__list--active{
+    transform: translateX(0%);
 }
 @media (max-width: 1280px){
     .catalog__inner{

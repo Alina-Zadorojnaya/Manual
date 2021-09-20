@@ -75,5 +75,9 @@ $(function(){
         $(this).toggleClass('health-btn--active');
       });
       
+
+      $('.menu-line').on('click', function(){
+        $('.menu__list').toggleClass('menu__list--active');
+      });
 });
 
