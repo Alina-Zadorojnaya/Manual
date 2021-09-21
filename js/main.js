@@ -77,7 +77,10 @@ $(function(){
       
 
       $('.menu-line').on('click', function(){
-        $('.menu__list').toggleClass('menu__list--active');
+        $('.menu__list').toggleClass('menu__list--active'); 
+      });
+      $('.box-menu__btn').on('click', function(){
+        $('.menu-box').toggleClass('menu-box--active'); 
       });
 });
 
